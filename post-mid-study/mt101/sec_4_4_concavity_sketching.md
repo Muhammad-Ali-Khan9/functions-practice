@@ -126,7 +126,7 @@ Critical points: $x = 0$ and $x = 2$, where $f' = 0$. And $f''(0) = -6 < 0$, so 
 
 $f'(x) = 4x^3 - 12x^2$ and $f''(x) = 12x^2 - 24x = 12x(x - 2)$. The candidates are $x = 0$ and $x = 2$.
 
-$f''$ changes from positive to negative at $x = 0$? For $x < 0$, both $x$ and $x - 2$ are negative, so $f'' > 0$. On $(0, 2)$, $x > 0$ and $x - 2 < 0$, so $f'' < 0$. On $(2, \infty)$, $f'' > 0$.
+$f''$ does change sign at $x = 0$. For $x < 0$, both $x$ and $x - 2$ are negative, so $f'' > 0$. On $(0, 2)$, $x > 0$ and $x - 2 < 0$, so $f'' < 0$. On $(2, \infty)$, $f'' > 0$.
 
 Concavity changes at both candidates. Inflection points: $f(0) = 10$, so $(0, 10)$, and $f(2) = 16 - 32 + 10 = -6$, so $(2, -6)$.
 
