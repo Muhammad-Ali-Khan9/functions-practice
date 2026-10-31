@@ -219,7 +219,7 @@ The negative root is discarded because $t < 0$ is before the throw.
 3. $v_x = 15.0\,\mathrm{m/s}$ and $v_y = -9.80(3.00) = -29.4\,\mathrm{m/s}$.
 
 $$
-v = \sqrt{15.0^2 + 29.4^2} = \sqrt{225 + 864} = \sqrt{1089} = 33.0\,\mathrm{m/s}
+v = \sqrt{15.0^2 + 29.4^2} = \sqrt{225 + 864.36} = \sqrt{1089.36} = 33.0\,\mathrm{m/s}
 $$
 
 The velocity is below the horizontal by $\tan^{-1}(29.4/15.0) = \tan^{-1}(1.96) = 63.0^\circ$.
@@ -275,7 +275,7 @@ $\sqrt{24.0} = 4.90$, so $t = 11.3\,\mathrm{s}$ or $t = 4.73\,\mathrm{s}$. Both 
 2. $a_{\mathrm{tan}} = 1.20\,\mathrm{m/s^2}$ and $a_{\mathrm{rad}} = 8.00\,\mathrm{m/s^2}$. They are perpendicular, so
 
 $$
-a = \sqrt{8.00^2 + 1.20^2} = \sqrt{65.4} = 8.09\,\mathrm{m/s^2}
+a = \sqrt{8.00^2 + 1.20^2} = \sqrt{64.0 + 1.44} = \sqrt{65.44} = 8.09\,\mathrm{m/s^2}
 $$
 
 The angle from the tangential direction toward the center satisfies $\tan\psi = a_{\mathrm{rad}}/a_{\mathrm{tan}} = 8.00/1.20 = 6.67$, so $\psi = 81.5^\circ$. Almost all of the acceleration is still radial.
@@ -300,12 +300,12 @@ The angle from the tangential direction toward the center satisfies $\tan\psi = 
 
 ### Answer 10
 
-$v_{0x} = 20.0(0.799) = 16.0\,\mathrm{m/s}$ and $v_{0y} = 20.0(0.602) = 12.0\,\mathrm{m/s}$.
+$v_{0x} = 20.0(0.799) = 15.98\,\mathrm{m/s}$ and $v_{0y} = 20.0(0.602) = 12.04\,\mathrm{m/s}$.
 
-The time to reach $x = 25.0\,\mathrm{m}$ is $t = 25.0/16.0 = 1.56\,\mathrm{s}$.
+The time to reach $x = 25.0\,\mathrm{m}$ is $t = 25.0/15.98 = 1.564\,\mathrm{s}$.
 
 $$
-y = 12.0(1.56) + \tfrac{1}{2}(-9.80)(1.56)^2 = 18.8 - 4.90(2.44) = 18.8 - 12.0 = 6.80\,\mathrm{m}
+y = 12.04(1.564) + \tfrac{1}{2}(-9.80)(1.564)^2 = 18.83 - 4.90(2.447) = 6.84\,\mathrm{m}
 $$
 
-The crossbar is at $2.44\,\mathrm{m}$. The ball is at $6.80\,\mathrm{m}$ when it reaches the goal line, so it passes over the crossbar. The level-ground range would be $v_0^2\sin 74.0^\circ / g$. That number says where the ball returns to the ground, not whether it is above the bar at $x = 25.0\,\mathrm{m}$.
+The crossbar is at $2.44\,\mathrm{m}$. The ball is at $6.84\,\mathrm{m}$ when it reaches the goal line, so it passes over the crossbar. The level-ground range would be $v_0^2\sin 74.0^\circ / g$. That number says where the ball returns to the ground, not whether it is above the bar at $x = 25.0\,\mathrm{m}$.

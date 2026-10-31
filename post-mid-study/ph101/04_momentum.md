@@ -246,7 +246,13 @@ $$
 
 and $v_1 = 2.00\sqrt{3} = 3.46\,\mathrm{m/s}$.
 
-3. $K_i = \tfrac{1}{2}m(4.00)^2 = 8.00 m$. After the collision, $\tfrac{1}{2}m(3.46)^2 + \tfrac{1}{2}m(2.00)^2 = \tfrac{1}{2}m(12.0) + \tfrac{1}{2}m(4.00) = 8.00 m$. The kinetic energy is unchanged.
+3. $K_i = \tfrac{1}{2}m(4.00)^2 = 8.00 m$. After the collision, use the exact speeds $v_1 = 2.00\sqrt{3}$ and $v_2 = 2.00$:
+
+$$
+\tfrac{1}{2}m(2.00\sqrt{3})^2 + \tfrac{1}{2}m(2.00)^2 = \tfrac{1}{2}m(12.0) + \tfrac{1}{2}m(4.00) = 8.00 m
+$$
+
+The displayed speed $3.46\,\mathrm{m/s}$ is $2.00\sqrt{3}$ rounded to three significant figures. Squaring $3.46$ gives $11.97$, which rounds back to $12.0$. The kinetic energy is unchanged.
 
 ### Answer 5
 

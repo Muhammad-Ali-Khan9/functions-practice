@@ -221,13 +221,13 @@ $$
 f'(x) = \frac{1}{2} \cdot \frac{2x}{x^2 + 1} - \frac{1}{x} = \frac{x}{x^2 + 1} - \frac{1}{x}.
 $$
 
-Chain rule on the original quotient form gives the same expression after simplification, because
+The chain rule on the original form starts from $\ln u$ with $u = \sqrt{x^2 + 1}/x$. Then
 
 $$
-f'(x) = \frac{x}{\sqrt{x^2 + 1}/x} \cdot \frac{d}{dx}\left(\frac{\sqrt{x^2 + 1}}{x}\right)
+f'(x) = \frac{1}{u}\,u' = \frac{x}{\sqrt{x^2 + 1}} \cdot \frac{d}{dx}\left(\frac{\sqrt{x^2 + 1}}{x}\right)
 $$
 
-is longer, and it reduces to the same derivative on $x > 0$.
+for $x > 0$. That product simplifies to the same derivative $x/(x^2 + 1) - 1/x$.
 
 For $x < 0$ the original expression has $\sqrt{x^2 + 1}/x < 0$, so the real logarithm is undefined. The expanded form $\frac{1}{2}\ln(x^2 + 1) - \ln x$ is also undefined for $x < 0$ if $\ln x$ is the real log. Writing $\frac{1}{2}\ln(x^2 + 1) - \ln \lvert x \rvert$ extends a similar function to $x \neq 0$, and its derivative is still $x/(x^2 + 1) - 1/x$. That extension is $\ln\bigl(\sqrt{x^2 + 1}/\lvert x \rvert\bigr)$, not the original formula with the signed denominator.
 

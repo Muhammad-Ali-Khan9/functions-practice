@@ -146,7 +146,7 @@ A $1200\,\mathrm{kg}$ car takes a flat curve of radius $50.0\,\mathrm{m}$. The s
 
 1. Find the maximum speed without sliding.
 2. At that speed, what is the direction of static friction?
-3. If the curve is banked at an angle $\theta$ and the road is frictionless, show that $v^2 = rg\tan\theta$, and find $\theta$ for the same speed and radius. You do not need a numerical speed from part 1 if you keep the symbols until the end. Then use the speed you found.
+3. If the curve is banked at an angle $\theta$ and the road is frictionless, show that $v^2 = rg\tan\theta$. Then find $\theta$ for the speed and radius from part 1.
 
 ### Question 7
 
@@ -267,7 +267,7 @@ $$
 
 2. Static friction points horizontally toward the center of the curve. It is not backward along the car unless the brakes are also working. Here it is the inward force.
 
-3. On a frictionless bank, the normal force tilts. Perpendicular to the road there is no acceleration if we use a tilted reading carefully. In horizontal and vertical components, with $N$ normal to the road,
+3. On a frictionless bank, resolve the normal force into horizontal and vertical components. The vertical component balances the weight, and the horizontal component supplies the inward acceleration:
 
 $$
 N\sin\theta = \frac{mv^2}{r}, \qquad N\cos\theta = mg

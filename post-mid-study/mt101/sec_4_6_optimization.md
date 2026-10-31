@@ -195,7 +195,7 @@ $$
 \frac{x}{\sqrt{x^2 + 36}} = \frac{10 - x}{\sqrt{(10 - x)^2 + 64}}
 $$
 
-Square both sides. The equation says the cosines of the angles with the vertical are equal, or, after squaring,
+Each side is the sine of the angle between that wire and the vertical post, which is the cosine of the angle between that wire and the ground. Setting the sides equal makes those angles match. After squaring,
 
 $$
 x^2\bigl((10 - x)^2 + 64\bigr) = (10 - x)^2(x^2 + 36)

@@ -94,7 +94,7 @@ for (int i = 1; i <= 3; i++) {
 1 3
 ```
 
-If the author wanted `case 2` to end the loop, the `break` they wrote does not do that. A `bool stop` set in `case 2`, tested by the loop, would.
+That `break` leaves the `switch` only. The `for` loop keeps going. To end the loop from `case 2`, set a `bool stop` in that case and test it in the loop condition.
 
 ## continue in do…while
 

@@ -263,7 +263,7 @@ For $(1 - \cos x)/x$, one application gives $\sin x / 1 \to 0$. That limit is de
 
 ### Answer 9
 
-For $(\sin x)^x$ as $x \to 0^+$, $\ln y = x \ln(\sin x) = \dfrac{\ln(\sin x)}{1/x}$, an $\infty/\infty$ form in the sense $(-\infty)/\infty$. Then
+For $(\sin x)^x$ as $x \to 0^+$, set $y = (\sin x)^x$. Then $\ln y = x \ln(\sin x) = \dfrac{\ln(\sin x)}{1/x}$. The numerator tends to $-\infty$ and the denominator tends to $+\infty$, so this is an $\infty/\infty$ form. Then
 
 $$
 \lim_{x \to 0^+} \frac{\cot x}{-1/x^2} = \lim_{x \to 0^+} \left(-x^2 \frac{\cos x}{\sin x}\right) = \lim_{x \to 0^+} \left(-x \cos x \cdot \frac{x}{\sin x}\right) = 0
@@ -271,13 +271,13 @@ $$
 
 because $x \to 0$, $\cos x \to 1$, and $x/\sin x \to 1$. So $\ln y \to 0$ and $y \to 1$.
 
-For the second limit, $\ln y = x \ln\bigl(x/(x + 1)\bigr) = x \ln\bigl(1 - 1/(x + 1)\bigr)$. Write
+For the second limit, set $y = \bigl(x/(x + 1)\bigr)^x$. Then
 
 $$
 \ln y = \frac{\ln\bigl(x/(x + 1)\bigr)}{1/x} = \frac{\ln x - \ln(x + 1)}{1/x}
 $$
 
-This is $0/0$ in the sense that the log of a quantity tending to $1$ tends to $0$, over $0$. Differentiate:
+As $x \to \infty$, $x/(x + 1) \to 1$, so the logarithm tends to $0$, and $1/x$ tends to $0$. The quotient is a $0/0$ form. Differentiate:
 
 $$
 \lim_{x \to \infty} \frac{1/x - 1/(x + 1)}{-1/x^2} = \lim_{x \to \infty} \left(-x^2\right)\left(\frac{1}{x(x + 1)}\right) = \lim_{x \to \infty} \frac{-x}{x + 1} = -1

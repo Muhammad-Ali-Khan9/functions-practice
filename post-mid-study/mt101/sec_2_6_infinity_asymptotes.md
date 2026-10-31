@@ -14,7 +14,7 @@ $$
 
 The two-sided limit $\lim_{x \to 0} 1/x$ is neither a real number nor a single infinite symbol, because the sides disagree. For $1/x^2$ both sides go to $+\infty$, and it is correct to write $\lim_{x \to 0} 1/x^2 = \infty$.
 
-A vertical asymptote $x = a$ occurs when at least one of the one-sided limits is $+\infty$ or $-\infty$. The line is not part of the graph. A curve can cross a horizontal asymptote and still approach it at infinity. A curve does not cross its vertical asymptote, because the function is undefined at that $x$-value. It can, on a different part of the domain, sit on either side of the asymptote line only in the sense of left and right. It never passes through $x = a$.
+A vertical asymptote $x = a$ occurs when at least one of the one-sided limits is $+\infty$ or $-\infty$. The line is not part of the graph. A curve can cross a horizontal asymptote and still approach it at infinity. A curve does not cross its vertical asymptote, because the function is undefined at that $x$-value. The graph may lie on the left of $x = a$ and also on the right, but it never passes through $x = a$.
 
 For a rational function, a vertical asymptote can occur only at a zero of the denominator. If that factor also cancels with the numerator, the graph has a hole, not a vertical asymptote. Cancel first, then read what is left.
 

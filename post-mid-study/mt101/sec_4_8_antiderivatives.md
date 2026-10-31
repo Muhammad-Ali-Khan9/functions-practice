@@ -139,7 +139,7 @@ $$
 
 The general antiderivative on $(0, \infty)$ is $\ln x + C$, since $x > 0$. Then $\ln e + C = 4$, so $1 + C = 4$ and $C = 3$. Thus $y = \ln x + 3$ on $(0, \infty)$. It cannot be extended through $0$.
 
-On $(-\infty, 0)$, the general antiderivative is $\ln \lvert x \rvert + C = \ln(-x) + C$. The condition $y(-e) = 4$ gives $\ln e + C = 4$, so $C = 3$ again. The solution is $y = \ln \lvert x \rvert + 3$ on $(-\infty, 0)$. The two solutions live on different intervals. They are not one function on $\mathbb{R}\setminus\{0\}$ until you say so, and the constant could have been chosen differently on each side if the initial condition had been stated on only one side.
+On $(-\infty, 0)$, the general antiderivative is $\ln \lvert x \rvert + C = \ln(-x) + C$. The condition $y(-e) = 4$ gives $\ln e + C = 4$, so $C = 3$ again. The solution is $y = \ln \lvert x \rvert + 3$ on $(-\infty, 0)$. These are two separate solutions. The condition at $x = e$ determines the formula only on $(0, \infty)$. The condition at $x = -e$ determines the formula only on $(-\infty, 0)$. The derivative $1/x$ is undefined at $0$, so neither solution continues through the origin.
 
 ### Answer 3
 
