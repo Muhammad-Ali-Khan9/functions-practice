@@ -2,8 +2,6 @@
 
 GIK Institute, MT101, Section H. These notes follow the opening of the course outline and Thomas’ Calculus, 13th edition. Each file explains why the idea is there, how the main calculations work, the mistakes that change an answer, and then gives 10 freshman-level questions with full answers.
 
-Math is written for GitHub: inline `$...$` and display `$$...$$`.
-
 | Section | Topic | File |
 | --- | --- | --- |
 | A.1 | Real numbers and the real line | [a1_real_numbers.md](a1_real_numbers.md) |

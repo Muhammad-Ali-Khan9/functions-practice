@@ -6,8 +6,6 @@ Each file explains why the relation is there, how a standard calculation is set 
 
 Use $g = 9.80\,\mathrm{m/s^2}$ as a positive number. If upward is positive, free-fall acceleration is $-g$. Rotation formulas that mix a radius with an angle need radians.
 
-Math is written for GitHub: inline `$...$` and display `$$...$$`.
-
 | Topic | File |
 | --- | --- |
 | Vector operations and force vectors | [01_vectors_forces.md](01_vectors_forces.md) |
