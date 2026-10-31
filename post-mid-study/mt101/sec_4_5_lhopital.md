@@ -99,7 +99,7 @@ These are not all candidates for L’Hôpital. Evaluate each limit, and say whic
 
 ### Question 6
 
-How many times must L’Hôpital’s rule be applied to evaluate $\displaystyle \lim_{x \to \infty} \frac{x^3}{e^x}$? Compute the limit, and explain why a fourth differentiation would be a mistake if you had already reached a determinate form earlier. You will not need a fourth one.
+How many times must L’Hôpital’s rule be applied to evaluate $\displaystyle \lim_{x \to \infty} \frac{x^3}{e^x}$? Compute the limit, and explain why one further differentiation, after the form has become determinate, would be a mistake.
 
 ### Question 7
 
@@ -117,7 +117,7 @@ Which steps are L’Hôpital, which step is a standard limit, and is the answer 
 
 ### Question 9
 
-Find $\displaystyle \lim_{x \to 0^+} (\sin x)^{\tan x}$? No: find $\displaystyle \lim_{x \to 0^+} (\sin x)^x$ and $\displaystyle \lim_{x \to \infty} \left(\frac{x}{x + 1}\right)^x$.
+Find $\displaystyle \lim_{x \to 0^+} (\sin x)^x$ and $\displaystyle \lim_{x \to \infty} \left(\frac{x}{x + 1}\right)^x$.
 
 ### Question 10
 

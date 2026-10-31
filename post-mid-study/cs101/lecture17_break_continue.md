@@ -258,7 +258,7 @@ Target is `7`. Input is `1 2 7 9 -1`. Using the search loop from the notes, is `
 
 ### Question 10
 
-This loop is meant to stop when `n` becomes `0`, and `n` starts at `3`. Why is it able to run forever even though the author remembers a `break`?
+This loop is meant to stop when `n` becomes `0`, and `n` starts at `3`. The body contains a `break`. Why does the loop still run forever?
 
 ```cpp
 int n = 3;

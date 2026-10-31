@@ -112,7 +112,7 @@ Position is $s(t) = t^3 - 3t$ for $-2 \leq t \leq 2$.
 
 ### Question 9
 
-Explain why $f$ and $f + 7$ have the same derivative function. Then find every function of the form $g(x) = x^2 + c$ whose graph passes through $(1, 4)$, and confirm they do not all share a derivative. Only one of them is being asked for. Compute its derivative anyway.
+Explain why $f$ and $f + 7$ have the same derivative function. Then find the function $g(x) = x^2 + c$ whose graph passes through $(1, 4)$, and compute $g'(x)$. Do other choices of the constant $c$ give the same derivative?
 
 ### Question 10
 

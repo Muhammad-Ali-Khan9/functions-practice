@@ -173,7 +173,7 @@ A $10.0\,\mathrm{kg}$ box is pushed up a $20.0^\circ$ incline by a force of $80.
 
 1. Find $N$ and the kinetic friction.
 2. Find the acceleration. State whether the box speeds up uphill.
-3. How would $N$ and $a$ change if the $80.0\,\mathrm{N}$ force were horizontal instead of parallel to the incline? Set up the two equations. You do not have to finish the arithmetic if the setup is complete, but do finish it.
+3. How would $N$ and $a$ change if the $80.0\,\mathrm{N}$ force were horizontal instead of parallel to the incline? Find the new normal force, the new friction, and the new acceleration.
 
 ### Question 10
 

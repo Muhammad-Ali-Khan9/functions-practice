@@ -90,7 +90,7 @@ Let $f(x) = \sqrt{x}$ on $[0, 4]$.
 
 ### Question 9
 
-Suppose $f$ is continuous on $[a, b]$, differentiable on $(a, b)$, and $f'(x) \neq 0$ for every $x$ in $(a, b)$. Prove that $f(a) \neq f(b)$. Then determine how many real roots $e^x = x + 2$ has. The derivative of $e^x - x - 2$ does vanish, so the first paragraph does not by itself finish the count.
+Suppose $f$ is continuous on $[a, b]$, differentiable on $(a, b)$, and $f'(x) \neq 0$ for every $x$ in $(a, b)$. Prove that $f(a) \neq f(b)$. Then determine how many real roots $e^x = x + 2$ has.
 
 ### Question 10
 
@@ -162,9 +162,7 @@ The secant slope is $(2 - 0)/4 = 1/2$. Set $1/(2\sqrt{c}) = 1/2$, so $\sqrt{c} =
 
 If $f(a) = f(b)$, Rolle’s theorem would give a point where $f' = 0$, contradicting the hypothesis. Therefore $f(a) \neq f(b)$.
 
-For $e^x = x + 2$, let $f(x) = e^x - x - 2$. Then $f'(x) = e^x - 1$, which is zero at $x = 0$. So $f'$ does vanish, and the previous paragraph does not say there is only one root. In fact $f'(x) < 0$ on $(-\infty, 0)$ and $f'(x) > 0$ on $(0, \infty)$, so $f$ decreases to $f(0) = 1 - 2 = -1 < 0$ and then increases. $f(0) = -1$ and $f(2) = e^2 - 4 > 0$, so there is a root in $(0, 2)$. Also $f(-2) = e^{-2} + 2 - 2 = e^{-2} > 0$, and $f$ goes from positive to negative on $(-\infty, 0)$, so there is a root in $(-2, 0)$. There are two roots, not one.
-
-The corrected count is two. A claim of exactly one would be wrong because $f'$ changes sign. The “at most one” argument needs $f'$ never zero, and that hypothesis fails here.
+For $e^x = x + 2$, let $f(x) = e^x - x - 2$. Then $f'(x) = e^x - 1$, which is zero at $x = 0$, so the first result does not apply to this $f$. In fact $f'(x) < 0$ on $(-\infty, 0)$ and $f'(x) > 0$ on $(0, \infty)$, so $f$ decreases to $f(0) = 1 - 2 = -1 < 0$ and then increases. $f(0) = -1$ and $f(2) = e^2 - 4 > 0$, so there is a root in $(0, 2)$. Also $f(-2) = e^{-2} + 2 - 2 = e^{-2} > 0$, and $f$ goes from positive to negative on $(-\infty, 0)$, so there is a root in $(-2, 0)$. There are two real roots. The argument that would allow at most one root needs $f'$ never zero, and that hypothesis fails here.
 
 ### Answer 10
 

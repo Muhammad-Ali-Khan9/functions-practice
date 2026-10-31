@@ -121,7 +121,7 @@ Suppose $f$ is odd and integrable on $[-a, a]$. Argue from areas, or from the de
 
 ### Question 10
 
-A velocity $v(t)$ satisfies $-2 \le v(t) \le 5$ on $[0, 3]$, in m/s. Bound the net displacement. Is the bound the same as a bound on the total distance? Give an example of a velocity in this range whose distance traveled is larger than every possible net displacement in the range.
+A velocity $v(t)$ satisfies $-2 \le v(t) \le 5$ on $[0, 3]$, in m/s. Bound the net displacement. Is the bound the same as a bound on the total distance? Give an example of a velocity in this range whose distance traveled is larger than the absolute value of its own net displacement.
 
 ---
 
@@ -180,4 +180,4 @@ Net displacement is $\int_0^3 v(t)\,dt$, and $-2\cdot 3 \le \int v \le 5\cdot 3$
 
 Total distance is $\int_0^3 \lvert v(t) \rvert\,dt$, which can be as large as $15\,\mathrm{m}$ if $v = 5$ always, and can also be large when the velocity changes sign. The upper bound $15$ still holds because $\lvert v \rvert \le 5$, so distance is at most $15\,\mathrm{m}$. The lower comparison is different: distance is at least $0$, not at least $-6$.
 
-An example with distance larger than every possible confusion with the net bound: let $v = 5$ for $1.5\,\mathrm{s}$ and $v = -2$ for $1.5\,\mathrm{s}$. Distance is $5(1.5) + 2(1.5) = 10.5\,\mathrm{m}$. Net displacement is $7.5 - 3 = 4.5\,\mathrm{m}$. The distance $10.5$ is larger than this net displacement. It is still inside the distance bound $15$. No legal velocity in the given range has distance above $15$, and none has net displacement above $15$ either. The interesting gap is that distance can be $10.5$ while net displacement is only $4.5$.
+Let $v = 5$ for $1.5\,\mathrm{s}$ and $v = -2$ for $1.5\,\mathrm{s}$. Distance is $5(1.5) + 2(1.5) = 10.5\,\mathrm{m}$. Net displacement is $7.5 - 3 = 4.5\,\mathrm{m}$. The distance is larger than the absolute value of this motion’s own net displacement, and both numbers lie inside the bounds above.
