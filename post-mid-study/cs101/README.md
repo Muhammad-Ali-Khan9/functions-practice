@@ -1,6 +1,6 @@
-# CS101 post-mid notes: control structures and functions
+# CS101 post-mid notes: control structures through header files
 
-GIK Institute, CS101. These notes follow lectures 09–18 from the course outline and the style of Deitel, *C++20 for Programmers*. The course compiler setup is VS Code with MinGW.
+GIK Institute, CS101. These notes follow lectures 09–30 from the course outline and the style of Deitel, *C++20 for Programmers*. The course compiler setup is VS Code with MinGW.
 
 Each file explains why the statement exists, how it runs, the mistakes that change a program’s meaning, and then gives 10 freshman-level questions with full answers.
 
@@ -16,6 +16,18 @@ Each file explains why the statement exists, how it runs, the mistakes that chan
 | 16 for | [lecture16_for.md](lecture16_for.md) |
 | 17 break and continue | [lecture17_break_continue.md](lecture17_break_continue.md) |
 | 18 Functions: definition, prototypes, calling | [lecture18_functions.md](lecture18_functions.md) |
+| 19 Call by value | [lecture19_call_by_value.md](lecture19_call_by_value.md) |
+| 20 Call by reference | [lecture20_call_by_reference.md](lecture20_call_by_reference.md) |
+| 21 Random number generation | [lecture21_random_numbers.md](lecture21_random_numbers.md) |
+| 22 Storage classes and scope rules | [lecture22_storage_scope.md](lecture22_storage_scope.md) |
+| 23 Array declaration | [lecture23_arrays_declaration.md](lecture23_arrays_declaration.md) |
+| 24 Array examples | [lecture24_arrays_examples.md](lecture24_arrays_examples.md) |
+| 25 Passing arrays to functions | [lecture25_passing_arrays.md](lecture25_passing_arrays.md) |
+| 26 Searching arrays | [lecture26_searching_arrays.md](lecture26_searching_arrays.md) |
+| 27 Pointers | [lecture27_pointers.md](lecture27_pointers.md) |
+| 28 Passing pointers as function parameters | [lecture28_passing_pointers.md](lecture28_passing_pointers.md) |
+| 29 Library functions | [lecture29_library_functions.md](lecture29_library_functions.md) |
+| 30 Header files | [lecture30_header_files.md](lecture30_header_files.md) |
 
 Compile a copied example from the folder that contains the `.cpp` file:
 
