@@ -12,4 +12,8 @@ Use $g = 9.80\,\mathrm{m/s^2}$ as a positive number. If upward is positive, free
 | Motion in one and two dimensions | [02_motion_1d_2d.md](02_motion_1d_2d.md) |
 | Newton’s laws and applications | [03_newton_laws.md](03_newton_laws.md) |
 | Momentum and its conservation | [04_momentum.md](04_momentum.md) |
+| 8.1 Momentum and impulse (Young Ch. 8) | [chap8/sec_8_1_momentum_impulse.md](chap8/sec_8_1_momentum_impulse.md) |
+| 8.2 Conservation of momentum (Young Ch. 8) | [chap8/sec_8_2_conservation_of_momentum.md](chap8/sec_8_2_conservation_of_momentum.md) |
+| 8.3 Momentum conservation and collisions (Young Ch. 8) | [chap8/sec_8_3_momentum_conservation_collisions.md](chap8/sec_8_3_momentum_conservation_collisions.md) |
+| 8.4 Elastic collisions (Young Ch. 8) | [chap8/sec_8_4_elastic_collisions.md](chap8/sec_8_4_elastic_collisions.md) |
 | Rotational kinematics and dynamics | [05_rotation.md](05_rotation.md) |
